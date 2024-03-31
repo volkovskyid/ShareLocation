@@ -1,6 +1,6 @@
 [versions]
 agp = "8.5.0-alpha02"
-kotlin = "1.9.22"
+kotlin = "1.9.23"
 gms = "4.4.1"
 crashlytics = "2.9.9"
 coreKtx = "1.12.0"
@@ -11,6 +11,7 @@ lifecycleRuntimeKtx = "2.7.0"
 activityCompose = "1.8.2"
 composeBom = "2024.03.00"
 firebaseBom = "32.8.0"
+servicesLocation = "21.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -30,6 +31,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
 firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "servicesLocation" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
